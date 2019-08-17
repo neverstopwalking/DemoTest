@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <context:component-scan base-package="com.zzj.springMvc.service"/>
+
+
+    <!--数据库连接池信息配置文件的位置-->
+    <bean id="propertyconfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:config/db.properties"></property>
+    </bean>
+
+    <!--配置数据库连接池信息-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${mysql.jdbc.driver}"></property>
+        <property name="username" value="${mysql.jdbc.username}"></property>
+        <property name="password" value="${mysql.jdbc.password}"></property>
+        <property name="url" value="${mysql.jdbc.url}"></property>
+        <property name="initialSize" value="${mysql.jdbc.initialSize}"></property>
+        <property name="minIdle" value="${mysql.jdbc.minIdle}"></property>
+        <property name="maxActive" value="${mysql.jdbc.maxActive}"></property>
+        <property name="maxWait" value="${mysql.jdbc.maxWait}"></property>
+    </bean>
+
+
+    <!--配置sqlsessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--注入mybatis全局配置文件的位置-->
+        <property name="configLocation" value="classpath:META-INF/mybatis/mybatis-config.xml"></property>
+
+        <!--注入sql映射文件的位置-->
+        <property name="mapperLocations">
+            <list>
+                <value>classpath:META-INF/mybatis/mapper/*Mapper.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--配置dao接口的位置，对应sql语句-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+        <property name="basePackage" value="com.zzj.springMvc.service"></property>
+    </bean>
+
+</beans>

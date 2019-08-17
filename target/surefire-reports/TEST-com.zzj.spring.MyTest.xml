@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zzj.spring.MyTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\myWorkspace\DemoTest\target\test-classes;D:\myWorkspace\DemoTest\target\classes;D:\develop\maven\repo\junit\junit\4.11\junit-4.11.jar;D:\develop\maven\repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\develop\maven\repo\org\apache\zookeeper\zookeeper\3.5.5\zookeeper-3.5.5.jar;D:\develop\maven\repo\org\apache\zookeeper\zookeeper-jute\3.5.5\zookeeper-jute-3.5.5.jar;D:\develop\maven\repo\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;D:\develop\maven\repo\io\netty\netty-all\4.1.29.Final\netty-all-4.1.29.Final.jar;D:\develop\maven\repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\develop\maven\repo\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\develop\maven\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\develop\maven\repo\org\apache\curator\curator-framework\2.8.0\curator-framework-2.8.0.jar;D:\develop\maven\repo\org\apache\curator\curator-client\2.8.0\curator-client-2.8.0.jar;D:\develop\maven\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\develop\maven\repo\org\apache\curator\curator-recipes\2.8.0\curator-recipes-2.8.0.jar;D:\develop\maven\repo\com\alibaba\dubbo\2.6.7\dubbo-2.6.7.jar;D:\develop\maven\repo\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\develop\maven\repo\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\develop\maven\repo\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;D:\develop\maven\repo\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;D:\develop\maven\repo\jstl\jstl\1.2\jstl-1.2.jar;D:\develop\maven\repo\taglibs\standard\1.1.2\standard-1.1.2.jar;D:\develop\maven\repo\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-web\5.1.8.RELEASE\spring-web-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-webmvc\5.1.8.RELEASE\spring-webmvc-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;D:\develop\maven\repo\javax\javaee-api\7.0\javaee-api-7.0.jar;D:\develop\maven\repo\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;D:\develop\maven\repo\javax\activation\activation\1.1\activation-1.1.jar;D:\develop\maven\repo\org\springframework\spring-jdbc\5.1.8.RELEASE\spring-jdbc-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-tx\5.1.8.RELEASE\spring-tx-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\mybatis\mybatis\3.5.2\mybatis-3.5.2.jar;D:\develop\maven\repo\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;D:\develop\maven\repo\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;D:\develop\maven\repo\org\mybatis\mybatis-spring\2.0.2\mybatis-spring-2.0.2.jar;D:\develop\maven\repo\com\alibaba\druid\1.1.19\druid-1.1.19.jar;D:\develop\maven\repo\com\alibaba\fastjson\1.2.58\fastjson-1.2.58.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="E:\software\java\jdk8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\11105173\AppData\Local\Temp\surefire5502710306392009604\surefirebooter4946024496574131008.jar C:\Users\11105173\AppData\Local\Temp\surefire5502710306392009604 2019-08-13T16-18-07_762-jvmRun1 surefire9151373945396116833tmp surefire_03818899110068903644tmp"/>
+    <property name="surefire.test.class.path" value="D:\myWorkspace\DemoTest\target\test-classes;D:\myWorkspace\DemoTest\target\classes;D:\develop\maven\repo\junit\junit\4.11\junit-4.11.jar;D:\develop\maven\repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\develop\maven\repo\org\apache\zookeeper\zookeeper\3.5.5\zookeeper-3.5.5.jar;D:\develop\maven\repo\org\apache\zookeeper\zookeeper-jute\3.5.5\zookeeper-jute-3.5.5.jar;D:\develop\maven\repo\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;D:\develop\maven\repo\io\netty\netty-all\4.1.29.Final\netty-all-4.1.29.Final.jar;D:\develop\maven\repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\develop\maven\repo\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\develop\maven\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\develop\maven\repo\org\apache\curator\curator-framework\2.8.0\curator-framework-2.8.0.jar;D:\develop\maven\repo\org\apache\curator\curator-client\2.8.0\curator-client-2.8.0.jar;D:\develop\maven\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\develop\maven\repo\org\apache\curator\curator-recipes\2.8.0\curator-recipes-2.8.0.jar;D:\develop\maven\repo\com\alibaba\dubbo\2.6.7\dubbo-2.6.7.jar;D:\develop\maven\repo\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\develop\maven\repo\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\develop\maven\repo\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;D:\develop\maven\repo\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;D:\develop\maven\repo\jstl\jstl\1.2\jstl-1.2.jar;D:\develop\maven\repo\taglibs\standard\1.1.2\standard-1.1.2.jar;D:\develop\maven\repo\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-web\5.1.8.RELEASE\spring-web-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-webmvc\5.1.8.RELEASE\spring-webmvc-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;D:\develop\maven\repo\javax\javaee-api\7.0\javaee-api-7.0.jar;D:\develop\maven\repo\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;D:\develop\maven\repo\javax\activation\activation\1.1\activation-1.1.jar;D:\develop\maven\repo\org\springframework\spring-jdbc\5.1.8.RELEASE\spring-jdbc-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\springframework\spring-tx\5.1.8.RELEASE\spring-tx-5.1.8.RELEASE.jar;D:\develop\maven\repo\org\mybatis\mybatis\3.5.2\mybatis-3.5.2.jar;D:\develop\maven\repo\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;D:\develop\maven\repo\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;D:\develop\maven\repo\org\mybatis\mybatis-spring\2.0.2\mybatis-spring-2.0.2.jar;D:\develop\maven\repo\com\alibaba\druid\1.1.19\druid-1.1.19.jar;D:\develop\maven\repo\com\alibaba\fastjson\1.2.58\fastjson-1.2.58.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\11105173"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="E:\software\java\jdk8\jre"/>
+    <property name="basedir" value="D:\myWorkspace\DemoTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\11105173\AppData\Local\Temp\surefire5502710306392009604\surefirebooter4946024496574131008.jar"/>
+    <property name="sun.boot.class.path" value="E:\software\java\jdk8\jre\lib\resources.jar;E:\software\java\jdk8\jre\lib\rt.jar;E:\software\java\jdk8\jre\lib\sunrsasign.jar;E:\software\java\jdk8\jre\lib\jsse.jar;E:\software\java\jdk8\jre\lib\jce.jar;E:\software\java\jdk8\jre\lib\charsets.jar;E:\software\java\jdk8\jre\lib\jfr.jar;E:\software\java\jdk8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="11105173"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="E:\software\java\jdk8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\develop\maven\repo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\11105173\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="D:\myWorkspace\DemoTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\software\java\jdk8\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;E:\software\java\jdk8\bin;E:\software\java\jdk8\jre\bin;E:\software\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;E:\software\apache-tomcat-7.0.94\bin;E:\software\apache-tomcat-7.0.94\lib;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="E:\software\java\jdk8\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test" classname="com.zzj.spring.MyTest" time="0.004"/>
+</testsuite>

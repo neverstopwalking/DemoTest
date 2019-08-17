@@ -1,0 +1,33 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--指定命名空间-->
+<mapper namespace="com.zzj.springMvc.service.MyDao">
+    <resultMap type="com.zzj.entity.City" id="cityMap">
+        <id column="ID" property="id"/>
+        <result column="Name" property="name"/>
+        <result column="CountryCode" property="countryCode"/>
+        <result column="District" property="district"/>
+        <result column="Population" property="population"/>
+
+    </resultMap>
+
+    <sql id="Base_Column_list">
+        ID,Name,CountryCode,District,Population
+    </sql>
+
+    <select id="getCityById" parameterType="java.lang.Integer" resultMap="cityMap">
+        select
+        <include refid="Base_Column_list"/>
+        from city
+        where ID=#{id,jdbcType=INTEGER}
+    </select>
+
+    <insert id="insert" parameterType="com.zzj.entity.City" keyColumn="ID" keyProperty="id" useGeneratedKeys="true">
+        insert into city(Name,District,CountryCode,Population)
+        values(#{name},#{district},#{countryCode},#{population})
+    </insert>
+
+</mapper>
